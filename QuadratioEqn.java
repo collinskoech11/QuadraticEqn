@@ -15,6 +15,7 @@ public class QuadratioEqn {
         double determinant = (b*b)-(4*a*c);
         double sqrt = Math.sqrt(determinant);
         System.out.println("determinant is"+determinant);
+        System.out.println("Square root is"+sqrt);
 
         if(determinant>0){
             firstRoot = (-b+sqrt)/(2*a);
