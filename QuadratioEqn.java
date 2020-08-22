@@ -3,26 +3,26 @@ public class QuadratioEqn {
     public static void main(String args[]){
         double secondRoot = 0, firstRoot =0 ;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of a ::");
+        System.out.println("Enter the value of a : ");
         double a = sc.nextDouble();
 
-        System.out.println("Enter the value of b :: ");
+        System.out.println("Enter the value of b : ");
         double b = sc.nextDouble();
 
-        System.out.println("Enter the value of c :: ");
+        System.out.println("Enter the value of c : ");
         double c = sc.nextDouble();
 
         double determinant = (b*b)-(4*a*c);
         double sqrt = Math.sqrt(determinant);
-        System.out.println("determinant is"+determinant);
-        System.out.println("Square root is"+sqrt);
+        System.out.println("determinant : "+determinant);
+        System.out.println("Square root : "+sqrt);
 
         if(determinant>0){
             firstRoot = (-b+sqrt)/(2*a);
             secondRoot =(-b - sqrt)/(2*a);
-            System.out.println("Roots are :"+firstRoot+"and"+secondRoot);
+            System.out.println("Roots are : "+firstRoot+"and"+secondRoot);
         }else {
-            System.out.println("Root is :"+(-b+sqrt)/(2*a));
+            System.out.println("Root is : "+(-b+sqrt)/(2*a));
         }
     }
 }
