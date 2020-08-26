@@ -22,7 +22,7 @@ public class QuadratioEqn {
             secondRoot =(-b - sqrt)/(2*a);
             System.out.println("Roots are : "+firstRoot+"and"+secondRoot);
         }else {
-            System.out.println("Root is : "+(-b+sqrt)/(2*a));
+            System.out.println("Root is :"+(-b+sqrt)/(2*a));
         }
     }
 }
