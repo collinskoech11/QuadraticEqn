@@ -8,7 +8,6 @@ public class primeNumber {
         boolean flag =false;
         while(i <= n/2)
         {
-            // condition for nonprime number
             if(n % i == 0)
             {
                 flag = true;
